@@ -71,6 +71,7 @@ SSD_secondary_packaging = packaging_intensity * ssd_secondary_nr
 DRAM_packging           = packaging_intensity * dram_nr
 CPU_packaging           = packaging_intensity * cpu_nr
 
+
 total_packaging = SSD_main_packaging +  \
                   SSD_secondary_packaging + \
                   DRAM_packging + \
